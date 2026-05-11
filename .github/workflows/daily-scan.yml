@@ -1,0 +1,32 @@
+name: Daily Contract Scan
+
+on:
+  schedule:
+    - cron: '0 12 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run contract scraper
+        run: node scraper/scan.js
+
+      - name: Commit updated results
+        run: |
+          git config user.name  "Sunray Contract Scanner"
+          git config user.email "scanner@sunrayflooring.com"
+          git add data/results.json
+          git diff --staged --quiet || git commit -m "🔍 Daily scan $(date +'%Y-%m-%d')"
+          git push
