@@ -1,0 +1,12 @@
+{
+  "name": "sunray-contract-scraper",
+  "version": "1.0.0",
+  "description": "Daily scraper for Sunray Flooring GC contract dashboard",
+  "main": "scan.js",
+  "scripts": {
+    "scan": "node scan.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,14 @@
+[build]
+  publish = "."     # serve the root folder — index.html is the entry point
+  # No build command needed: this is a static site
+
+[[headers]]
+  for = "/data/results.json"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"

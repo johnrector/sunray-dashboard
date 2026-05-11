@@ -1,0 +1,302 @@
+{
+  "lastUpdated": "2026-05-11T12:00:00.000Z",
+  "scanSources": ["City of Charleston", "Charleston County"],
+  "totalContracts": 4,
+  "newThisScan": 4,
+  "flooringRelevant": 2,
+  "highRiskContracts": 3,
+  "contracts": [
+    {
+      "id": "city-of-charleston-flooring-renovation-county-admin-building-001",
+      "title": "Flooring Renovation – County Administration Building",
+      "source": "City of Charleston",
+      "url": "https://www.charleston-sc.gov/Bids.aspx",
+      "dateFound": "2026-05-11",
+      "datePosted": "5/8/2026",
+      "isFlooringRelevant": true,
+      "grade": "C",
+      "counts": { "HIGH": 3, "MEDIUM": 2, "LOW": 0, "INFO": 1 },
+      "findings": [
+        {
+          "id": "pay_if_paid",
+          "category": "Payment",
+          "title": "Pay-If-Paid Clause",
+          "risk": "HIGH",
+          "subtitle": "Payment is contingent on GC receiving funds from Owner",
+          "excerpt": "…payment to Subcontractor is expressly conditioned upon General Contractor's receipt of payment from the City of Charleston Owner…",
+          "explain": "A pay-if-paid clause makes your right to payment entirely contingent on the GC receiving payment from the Owner. If the Owner doesn't pay — for any reason — you get nothing, even if your flooring work was perfect.",
+          "scNote": "South Carolina courts enforce clearly-written pay-if-paid clauses as a complete defense to payment. Cite: Shelco, Inc. v. Alanthus Corp.",
+          "counter": "Strike or replace with: \"Payment to Subcontractor is not contingent upon General Contractor's receipt of payment from Owner. In no event shall payment be delayed more than 45 days from Subcontractor's invoice date.\"",
+          "actions": ["Strike this clause or replace with a pay-when-paid provision with a 45-day backstop", "Price the job 5–10% higher to account for payment risk if clause cannot be removed"]
+        },
+        {
+          "id": "broad_indemnity",
+          "category": "Indemnification",
+          "title": "Broad Indemnification — Potentially Void Under SC Law",
+          "risk": "HIGH",
+          "subtitle": "May require covering GC's own negligence — illegal in SC",
+          "excerpt": "…Subcontractor shall indemnify, defend, and hold harmless the General Contractor and Owner from any and all claims arising out of or in connection with Subcontractor's Work…",
+          "explain": "Broad indemnification clauses attempt to shift ALL liability to you — including claims caused by the GC's own negligence.",
+          "scNote": "S.C. Code § 32-2-10 voids any provision requiring a subcontractor to indemnify the GC for the GC's OWN negligence.",
+          "counter": "Replace with: \"Subcontractor's indemnity is limited to claims arising from Subcontractor's own negligence, per S.C. Code § 32-2-10.\"",
+          "actions": ["Cite SC § 32-2-10 to GC", "Demand mutual indemnification"]
+        },
+        {
+          "id": "unconditional_lien_waiver",
+          "category": "Lien Waivers",
+          "title": "Unconditional Lien Waiver Required",
+          "risk": "HIGH",
+          "subtitle": "Waiving lien rights BEFORE receiving payment",
+          "excerpt": "…as a condition of each progress payment, Subcontractor shall provide an unconditional lien waiver covering all labor and materials…",
+          "explain": "An unconditional lien waiver permanently releases your right to file a mechanics' lien the moment you sign it — even if you haven't been paid.",
+          "scNote": "Under SC Mechanics' Lien Law (§29-5-10), always use CONDITIONAL lien waivers.",
+          "counter": "Require conditional waivers only: \"Any lien waiver shall be effective solely upon Subcontractor's actual receipt and clearance of the specified payment.\"",
+          "actions": ["NEVER sign unconditional waiver until check clears", "Track 90-day SC lien filing deadline"]
+        },
+        {
+          "id": "retainage_10",
+          "category": "Retainage",
+          "title": "10% Retainage",
+          "risk": "MEDIUM",
+          "subtitle": "High retainage ties up significant cash flow",
+          "excerpt": "…Owner shall retain ten percent (10%) of the value of each progress payment…",
+          "explain": "10% retainage on a $200,000 job means $20,000 sitting with the GC, potentially for months.",
+          "scNote": "SC Code § 11-35-3030 limits retainage on public projects to 6%.",
+          "counter": "Negotiate: \"Retainage shall not exceed 5%. Releases within 30 days of punch-list completion.\"",
+          "actions": ["Negotiate retainage to 5% maximum", "Decouple your retainage release from overall project completion"]
+        },
+        {
+          "id": "additional_insured",
+          "category": "Insurance",
+          "title": "Additional Insured Requirement",
+          "risk": "INFO",
+          "subtitle": "GC and Owner named on your policy — verify coverage",
+          "excerpt": "…Subcontractor shall name the Owner and General Contractor as additional insureds on a primary and non-contributory basis…",
+          "explain": "Standard practice, but you need to confirm your insurer will add them and understand any premium costs.",
+          "scNote": "Additional insured status must be endorsed explicitly.",
+          "counter": "Call your insurance broker before signing to confirm the endorsement and any added premium.",
+          "actions": ["Call your insurance broker before signing", "Obtain the COI before starting work"]
+        }
+      ]
+    },
+    {
+      "id": "charleston-county-public-safety-complex-renovation-002",
+      "title": "Public Safety Complex Interior Renovation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/index.php",
+      "dateFound": "2026-05-11",
+      "datePosted": "5/7/2026",
+      "isFlooringRelevant": false,
+      "grade": "D",
+      "counts": { "HIGH": 4, "MEDIUM": 2, "LOW": 1, "INFO": 1 },
+      "findings": [
+        {
+          "id": "pay_if_paid",
+          "category": "Payment",
+          "title": "Pay-If-Paid Clause",
+          "risk": "HIGH",
+          "subtitle": "Payment contingent on Owner paying GC",
+          "excerpt": "…receipt of payment from Owner is a condition precedent to Subcontractor's right to payment hereunder…",
+          "explain": "A pay-if-paid clause makes your right to payment entirely contingent on the GC receiving payment from the Owner.",
+          "scNote": "SC courts enforce clearly-written pay-if-paid clauses. Cite: Shelco, Inc. v. Alanthus Corp.",
+          "counter": "Strike or replace with a 45-day backstop payment provision.",
+          "actions": ["Strike this clause", "Price in risk premium of 5–10%"]
+        },
+        {
+          "id": "no_damages_delay",
+          "category": "Change Orders",
+          "title": "No Damages for Delay Clause",
+          "risk": "HIGH",
+          "subtitle": "GC can delay your work with no financial compensation",
+          "excerpt": "…Subcontractor's sole remedy for any delay or disruption shall be an extension of time and Subcontractor waives all claims for delay damages…",
+          "explain": "Even if the GC's mismanagement idles your crew for weeks, your only remedy is more time — not money.",
+          "scNote": "SC recognizes exceptions for active interference and bad faith. Document all GC-caused delays immediately.",
+          "counter": "Negotiate carve-outs for GC-caused delays exceeding 14 consecutive days.",
+          "actions": ["Document every delay in writing", "Price bid with delay contingency"]
+        },
+        {
+          "id": "broad_indemnity",
+          "category": "Indemnification",
+          "title": "Broad Indemnification",
+          "risk": "HIGH",
+          "subtitle": "Covers GC's own negligence — void under SC § 32-2-10",
+          "excerpt": "…Subcontractor shall indemnify and hold harmless the General Contractor from any and all claims, including those arising from General Contractor's own acts or omissions…",
+          "explain": "This clause explicitly requires you to indemnify the GC for the GC's own negligence — which is void under SC law.",
+          "scNote": "S.C. Code § 32-2-10 makes this provision void as against public policy.",
+          "counter": "Cite § 32-2-10 and demand removal of the GC's own negligence language.",
+          "actions": ["Cite SC § 32-2-10", "Demand mutual indemnification"]
+        },
+        {
+          "id": "flow_down",
+          "category": "Flow-Down",
+          "title": "Broad Prime Contract Flow-Down",
+          "risk": "HIGH",
+          "subtitle": "Bound by a contract you haven't seen",
+          "excerpt": "…Subcontractor is bound by all terms of the Prime Contract between the County and General Contractor, which is hereby incorporated by reference…",
+          "explain": "Flow-down clauses make you responsible for every obligation in the GC's contract with the Owner.",
+          "scNote": "SC courts enforce flow-down clauses even if you never received a copy of the prime contract.",
+          "counter": "Require a full copy of the prime contract before signing. Limit flow-down to safety, insurance, and warranty only.",
+          "actions": ["Request and read the prime contract before signing", "Limit flow-down scope"]
+        },
+        {
+          "id": "short_notice_window",
+          "category": "Notice Requirements",
+          "title": "48-Hour Claims Notice Window",
+          "risk": "HIGH",
+          "subtitle": "Missing notice deadlines voids your claims",
+          "excerpt": "…any claim for additional time or compensation must be submitted in writing within 48 hours of the event giving rise to such claim…",
+          "explain": "A 48-hour notice window means that if you're busy in the field and miss the deadline, you forfeit a legitimate claim entirely.",
+          "scNote": "SC courts enforce notice provisions strictly. Do not rely on waiver defenses.",
+          "counter": "Negotiate to 7 business days minimum.",
+          "actions": ["Assign one person to track and send all written notices", "Send via email + certified mail"]
+        },
+        {
+          "id": "retainage_10",
+          "category": "Retainage",
+          "title": "10% Retainage",
+          "risk": "MEDIUM",
+          "subtitle": "Significant cash flow impact",
+          "excerpt": "…ten percent (10%) of the amount of each Application for Payment shall be retained…",
+          "explain": "10% retainage creates serious cash flow problems on large projects.",
+          "scNote": "SC public projects are limited to 6% retainage by statute.",
+          "counter": "Negotiate to 5% with early release at substantial completion.",
+          "actions": ["Negotiate to 5%", "Decouple your retainage from overall project completion"]
+        },
+        {
+          "id": "waiver_subrogation",
+          "category": "Insurance",
+          "title": "Waiver of Subrogation",
+          "risk": "LOW",
+          "subtitle": "Standard provision — confirm with your broker",
+          "excerpt": "…each party waives all rights of subrogation against the other…",
+          "explain": "Standard and generally acceptable. Confirm with your insurance broker.",
+          "scNote": "Most SC policies accommodate this for little or no added cost.",
+          "counter": "Acceptable. Notify your broker to add the endorsement.",
+          "actions": ["Notify broker before work begins"]
+        }
+      ]
+    },
+    {
+      "id": "city-of-charleston-library-branch-renovation-003",
+      "title": "Branch Library Renovation – West Ashley",
+      "source": "City of Charleston",
+      "url": "https://www.charleston-sc.gov/Bids.aspx?CatID=18",
+      "dateFound": "2026-05-11",
+      "datePosted": "5/5/2026",
+      "isFlooringRelevant": true,
+      "grade": "B",
+      "counts": { "HIGH": 1, "MEDIUM": 3, "LOW": 1, "INFO": 1 },
+      "findings": [
+        {
+          "id": "broad_indemnity",
+          "category": "Indemnification",
+          "title": "Broad Indemnification",
+          "risk": "HIGH",
+          "subtitle": "Covers losses beyond Subcontractor's own fault",
+          "excerpt": "…Subcontractor shall indemnify and save harmless the Owner and its officers, agents, and employees from all losses and claims arising out of Subcontractor's work…",
+          "explain": "This indemnification language is broad enough to potentially sweep in claims beyond your own fault.",
+          "scNote": "S.C. Code § 32-2-10 limits enforceability to your own negligence only.",
+          "counter": "Narrow to: \"Subcontractor indemnifies for claims arising solely from Subcontractor's own negligence.\"",
+          "actions": ["Cite SC § 32-2-10", "Limit scope to own negligence"]
+        },
+        {
+          "id": "written_co_only",
+          "category": "Change Orders",
+          "title": "Written Change Order Requirement",
+          "risk": "MEDIUM",
+          "subtitle": "Verbal field instructions may not be compensable",
+          "excerpt": "…no additional compensation shall be due for changes in Work unless a written Change Order has been executed prior to commencement of changed work…",
+          "explain": "Any verbal instruction to do extra work may not be compensable without prior written approval.",
+          "scNote": "SC courts enforce written change order requirements strictly.",
+          "counter": "Add deemed-approval provision: GC silence for 5 days = approved.",
+          "actions": ["Create a field change authorization form", "Follow verbal instructions with same-day email confirmation"]
+        },
+        {
+          "id": "retainage_10",
+          "category": "Retainage",
+          "title": "10% Retainage",
+          "risk": "MEDIUM",
+          "subtitle": "High retainage on what could be a mid-sized flooring job",
+          "excerpt": "…the Owner shall retain ten percent (10%) of the value of the Contractor's last payment…",
+          "explain": "10% retainage creates cash flow pressure, especially if release is tied to overall project completion.",
+          "scNote": "SC public projects capped at 6% retainage by statute.",
+          "counter": "Negotiate to 5% with release at YOUR substantial completion.",
+          "actions": ["Negotiate to 5%", "Decouple your retainage from total project"]
+        },
+        {
+          "id": "short_notice_window",
+          "category": "Notice Requirements",
+          "title": "21-Day Claims Notice Requirement",
+          "risk": "MEDIUM",
+          "subtitle": "Claims must be filed within 21 days or are waived",
+          "excerpt": "…Claims must be initiated within twenty-one (21) days after occurrence of the event giving rise to such Claim. By failing to give written notice within the time required, a party expressly waives its Claim…",
+          "explain": "21 days is better than 24–48 hours, but still requires a system to track and file claims on time.",
+          "scNote": "SC courts enforce contractual notice provisions. This mirrors the City of Charleston's own standard contract language.",
+          "counter": "Acceptable if you have a tracking system. Add: \"Notice defects shall not bar a claim if GC had actual knowledge.\"",
+          "actions": ["Build a notice tracking calendar", "Assign one person responsible for all written notices"]
+        },
+        {
+          "id": "waiver_subrogation",
+          "category": "Insurance",
+          "title": "Waiver of Subrogation",
+          "risk": "LOW",
+          "subtitle": "Standard provision",
+          "excerpt": "…each party waives all rights against the other for damages covered by property insurance…",
+          "explain": "Standard and generally acceptable in SC.",
+          "scNote": "Confirm with your broker before work begins.",
+          "counter": "Acceptable provision. Notify broker.",
+          "actions": ["Notify broker"]
+        },
+        {
+          "id": "additional_insured",
+          "category": "Insurance",
+          "title": "Additional Insured Requirement",
+          "risk": "INFO",
+          "subtitle": "Verify your policy can accommodate",
+          "excerpt": "…Subcontractor shall supply a written endorsement naming the Owner as additional insured on a primary and non-contributory basis…",
+          "explain": "Standard practice — confirm your insurer will issue the endorsement and what it costs.",
+          "scNote": "Additional insured endorsement must be explicit in the policy.",
+          "counter": "Call your broker before signing.",
+          "actions": ["Call your insurance broker", "Get COI before starting work"]
+        }
+      ]
+    },
+    {
+      "id": "charleston-county-road-resurfacing-program-004",
+      "title": "Road Resurfacing Program – Phase III",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/index.php",
+      "dateFound": "2026-05-11",
+      "datePosted": "5/3/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": { "HIGH": 0, "MEDIUM": 1, "LOW": 1, "INFO": 0 },
+      "findings": [
+        {
+          "id": "retainage_10",
+          "category": "Retainage",
+          "title": "10% Retainage",
+          "risk": "MEDIUM",
+          "subtitle": "Standard for public works but negotiable",
+          "excerpt": "…ten percent (10%) retainage shall be withheld from each progress payment…",
+          "explain": "10% retainage is common on public road projects but SC statute limits it to 6%.",
+          "scNote": "SC Code § 11-35-3030 limits public project retainage to 6%.",
+          "counter": "Negotiate to comply with SC statutory maximum of 6%.",
+          "actions": ["Cite the 6% statutory maximum", "Request early release at 50% completion"]
+        },
+        {
+          "id": "waiver_subrogation",
+          "category": "Insurance",
+          "title": "Waiver of Subrogation",
+          "risk": "LOW",
+          "subtitle": "Standard provision",
+          "excerpt": "…parties mutually waive rights of subrogation against each other…",
+          "explain": "Standard and acceptable. Confirm with your broker.",
+          "scNote": "Most SC policies accommodate this.",
+          "counter": "Acceptable. Notify broker.",
+          "actions": ["Notify broker"]
+        }
+      ]
+    }
+  ]
+}
