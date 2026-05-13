@@ -1,14 +1,116 @@
 {
-  "lastUpdated": "2026-05-12T14:00:26.840Z",
+  "lastUpdated": "2026-05-13T14:10:34.958Z",
   "scanSources": [
     "City of Charleston",
     "Charleston County"
   ],
-  "totalContracts": 19,
-  "newThisScan": 0,
+  "totalContracts": 25,
+  "newThisScan": 6,
   "flooringRelevant": 2,
   "highRiskContracts": 2,
   "contracts": [
+    {
+      "id": "charleston-county-notice-of-rejection-1778681424775",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6115Rejection.pdf');",
+      "dateFound": "2026-05-13",
+      "datePosted": "5/13/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1778681426525",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6103Rejection.pdf');",
+      "dateFound": "2026-05-13",
+      "datePosted": "5/13/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1778681428256",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=5897.Rejection.pdf');",
+      "dateFound": "2026-05-13",
+      "datePosted": "5/13/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1778681430007",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=5864.Rejection.pdf');",
+      "dateFound": "2026-05-13",
+      "datePosted": "5/13/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1778681431775",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=5922.Rejection.pdf');",
+      "dateFound": "2026-05-13",
+      "datePosted": "5/13/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1778681433458",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=5935NoticeofRejection.pdf');",
+      "dateFound": "2026-05-13",
+      "datePosted": "5/13/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
     {
       "id": "city-of-charleston-small-cell-wireless-info-pdf-1778509896382",
       "title": "Small Cell Wireless Info (PDF)",
