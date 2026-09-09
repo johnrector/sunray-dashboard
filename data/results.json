@@ -1,14 +1,269 @@
 {
-  "lastUpdated": "2026-09-08T15:43:20.867Z",
+  "lastUpdated": "2026-09-09T15:38:30.263Z",
   "scanSources": [
     "City of Charleston",
     "Charleston County"
   ],
-  "totalContracts": 6,
-  "newThisScan": 0,
+  "totalContracts": 21,
+  "newThisScan": 15,
   "flooringRelevant": 0,
   "highRiskContracts": 0,
   "contracts": [
+    {
+      "id": "city-of-charleston-small-cell-wireless-info-pdf-1788968285385",
+      "title": "Small Cell Wireless Info (PDF)",
+      "source": "City of Charleston",
+      "url": "https://www.charleston-sc.gov/DocumentCenter/View/20423",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/15/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968287023",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=5987Rejection.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968288815",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6121-26K.Notice.of.Rejection.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-cancellation-1788968290580",
+      "title": "Notice of Cancellation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6132-26K Notice of Cancellation.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968292210",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6134RejectionMemo.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968293848",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6137.Notice of Rejection.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968295589",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6162NoticeofRejection.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-cancellation-1788968297216",
+      "title": "Notice of Cancellation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6006 Notice of Cacellation.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-cancellation-1788968298850",
+      "title": "Notice of Cancellation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6031 Notice of Cacellation.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968300490",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6034.NoticeOfRejection.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-cancellation-1788968302121",
+      "title": "Notice of Cancellation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6051.NoticeofCancelation.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968303750",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6047.Rejection.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-rejection-1788968305502",
+      "title": "Notice of Rejection",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6055Rejection.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-cancellation-1788968307133",
+      "title": "Notice of Cancellation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6073 Notice of Cancellation.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "id": "charleston-county-notice-of-cancellation-1788968308761",
+      "title": "Notice of Cancellation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6085 Notice of Cancellation.pdf');",
+      "dateFound": "2026-09-09",
+      "datePosted": "9/9/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
     {
       "id": "charleston-county-notice-of-rejection-1778681424775",
       "title": "Notice of Rejection",
