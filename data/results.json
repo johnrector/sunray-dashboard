@@ -1,14 +1,31 @@
 {
-  "lastUpdated": "2026-10-20T16:04:53.425Z",
+  "lastUpdated": "2026-10-21T16:21:25.677Z",
   "scanSources": [
     "City of Charleston",
     "Charleston County"
   ],
-  "totalContracts": 21,
-  "newThisScan": 0,
+  "totalContracts": 22,
+  "newThisScan": 1,
   "flooringRelevant": 0,
   "highRiskContracts": 0,
   "contracts": [
+    {
+      "id": "charleston-county-notice-of-cancellation-1792599684175",
+      "title": "Notice of Cancellation",
+      "source": "Charleston County",
+      "url": "https://www.charlestoncounty.org/departments/procurement/javascript:openWindowBid('/bidform.asp?BidID=6195.Notice.of.Cancellaton.pdf');",
+      "dateFound": "2026-10-21",
+      "datePosted": "10/21/2026",
+      "isFlooringRelevant": false,
+      "grade": "A",
+      "counts": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
     {
       "id": "charleston-county-notice-of-rejection-1789140928596",
       "title": "Notice of Rejection",
